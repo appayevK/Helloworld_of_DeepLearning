@@ -19,4 +19,4 @@ Simple Neural network generalize the MNIST dataset with NumPy and Pandas only
 
 # Notes and imporements
 -Momentum SGD for faster learning
--
+

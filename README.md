@@ -64,4 +64,4 @@ Open the notebook in Colab (or any Jupyter environment with NumPy and Pandas) an
 
 ## Notes
 
-Built as a learning exercise to internalize how backpropagation actually works at the matrix level — every shape, every gradient, every update step is explicit. No frameworks, no shortcuts. p.s(in the trainer change the epoch number for 15 for the same result)
+Built as a learning exercise to internalize how backpropagation actually works at the matrix level — every shape, every gradient, every update step is explicit. No frameworks, no shortcuts. p.s(in the trainer change the epoch number to 15 for the same result)

@@ -19,7 +19,7 @@ Input (784)  →  Hidden 1 (128, ReLU)  →  Hidden 2 (64, ReLU)  →  Output (1
 
 - **Loss:** Cross-entropy
 - **Optimizer:** Mini-batch SGD (batch size 32, learning rate 0.1)
-- **Epochs:** 3
+- **Epochs:** 15 (did 12 then 3 more)
 - **Weight init:** Uniform `[-0.5, 0.5]`, biases zero
 
 ## Implementation Details
@@ -64,4 +64,4 @@ Open the notebook in Colab (or any Jupyter environment with NumPy and Pandas) an
 
 ## Notes
 
-Built as a learning exercise to internalize how backpropagation actually works at the matrix level — every shape, every gradient, every update step is explicit. No frameworks, no shortcuts.
+Built as a learning exercise to internalize how backpropagation actually works at the matrix level — every shape, every gradient, every update step is explicit. No frameworks, no shortcuts. p.s(in the trainer change the epoch number for 15 for the same result)
